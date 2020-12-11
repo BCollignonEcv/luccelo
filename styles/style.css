@@ -1,0 +1,15 @@
+:root{
+    --color-primary-100: rgba(28, 39, 33, 1);
+    --color-primary-80:  rgba(28, 39, 33, .8);
+    --color-primary-60:  rgba(28, 39, 33, .6);
+    --color-secondary-100: rgba(244, 255, 119, 1);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 72px;
+    background-color: var(--color-primary-60);
+}
