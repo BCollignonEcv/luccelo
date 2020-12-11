@@ -11,7 +11,7 @@ __Texte__
 * Taille de police de base : 16px
 
 __Couleurs__
-* Couleur principale : \textcolor{#1c2721}{#1c2721} vert #1c2721
+* Couleur principale : vert #1c2721
 * Couleur secondaire : jaune #f4ff77
 
 
