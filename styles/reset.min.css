@@ -1,0 +1,23 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4,p,ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-style: normal;
+}
+
+a, abbr{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}
