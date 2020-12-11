@@ -2,13 +2,13 @@
 
 ## Site internet
 
-Voici le lien du [site](https://www.google.com)
+Voici le lien du [site](https://bcollignonecv.github.io/luccelo/)
 
 ## Charte Graphique
 
 __Texte__
-* Police de charactère : 
-* Taille de police de base
+* Police de charactère : [roboto](https://fonts.google.com/specimen/Roboto)
+* Taille de police de base :
 
 __Couleurs__
 * Couleur principale :
