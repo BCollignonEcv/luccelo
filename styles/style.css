@@ -1,10 +1,82 @@
-section{
-    width: 100vh;
+@import "reset.min.css";
+@import "layer.css";
+@import "component.css";
+
+/*****************************************/
+/**************** TEXT *******************/
+/*****************************************/
+
+h1, h2, h3, h4, h5, li, a, span, p{
+    font-family: var(--font-primary);
 }
 
-#sect-background{
+/*****************************************/
+/*************** COLOR *******************/
+/*****************************************/
+
+.primary-100{
+    background-color: var(--color-primary-100);
+}
+
+.primary-80{
+    background-color: var(--color-primary-80);
+}
+
+.primary-60{
+    background-color: var(--color-primary-60);
+}
+
+.color_primary-100{
+    color: var(--color-primary-100);
+}
+
+.color_primary-80{
+    color: var(--color-primary-80);
+}
+
+.color_primary-60{
+    color: var(--color-primary-60);
+}
+
+.secondary-100{
+    background-color: var(--color-secondary-100);
+    color: var(--color-primary-100);
+}
+
+.secondary-80{
+    background-color: var(--color-secondary-80);
+    color: var(--color-primary-100);
+}
+
+.secondary-60{
+    background-color: var(--color-secondary-60);
+    color: var(--color-primary-100);
+}
+
+.color_secondary-100{
+    color: var(--color-secondary-100);
+}
+
+.color_secondary-80{
+    color: var(--color-secondary-80);
+}
+
+.color_secondary-60{
+    color: var(--color-secondary-60);
+}
+
+/*****************************************/
+/*************** CUSTOM *******************/
+/*****************************************/
+
+header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
 }

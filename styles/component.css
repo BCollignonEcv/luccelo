@@ -1,0 +1,41 @@
+/*****************************************/
+/**************** HEADER *****************/
+/*****************************************/
+
+.c_nav{
+    width: 100%;
+}
+
+.c_nav li{
+    padding: var(--margin-small);
+}
+
+.c_nav-title{
+    font-family: var(--font-secondary);
+    color: var(--color-secondary-100);
+    font-size: 2rem;
+    padding: 1.6rem 2rem;
+}
+
+.c_nav-button{
+    cursor: pointer;
+}
+
+.c_nav-icon{
+    padding: 1.6rem 2rem;
+    cursor: pointer;
+}
+
+.c_nav-icon i{
+    cursor: pointer;
+    float: right;
+    color: var(--color-primary-100);
+}
+
+.c_nav-mobile{
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 70%;
+}

@@ -1,58 +1,41 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Tinos:wght@400&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/reset.min.css">
-    <link rel="stylesheet" href="styles/basic.css">
+    <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/layer.css">
-    <link rel="stylesheet" href="styles/component.css">
-
-
     <title>L'uccelo</title>
 </head>
 <body>
     <header>
-        <nav class="transparent">
-            <div class="nav-wrapper navbar-fixed row">
-                <a href="#!" class="brand-logo col s3">L'uccelo</a>
-                <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down secondary-100 col s3">
-                    <li><a href="#" class="color_primary-100">Nous contacter</a></li>
-                </ul>
-            </div>
+        <nav class="c_nav">
+            <ul class="l_container">
+                <li class="c_nav-title l_li l_col-fill l_col-m9 ">L'uccelo</li>
+                <li class="c_nav-button l_li l_s-hide l_col-m3 secondary-100">Nous contacter</li>
+                <li class="c_nav-icon l_li l_s-show secondary-100"><i class="material-icons">menu</i></li>
+            </ul>
         </nav>
-        <ul class="sidenav" id="mobile-menu">
-            <li><a href="#">L'uccelo</a></li>
-            <li><a href="#">Notre carte</a></li>
-            <li><a href="#">Nous contacter</a></li>
+        <ul class="c_nav-mobile">
+            <li>L'uccelo</li>
+            <li>Notre carte</li>
+            <li>Nous contacter</li>
         </ul>
     </header>
     <main>
-        <section id="sect-background">
-            <div class="container l_container">
-                <div class="row">
-                    <div class="col s3 red">
-                      <!-- Grey navigation panel -->
-                    </div>
-              
-                    <div class="col s6 grey">
-                      <!-- Teal page content  -->
-                    </div>
-              
-                    <div class="col s3 teal">
-                        <!-- Teal page content  -->
-                    </div>
-                  </div>
+        <div class="l_container l_container-scrollable">
+            <div class="l_col-s12 l_col-m3 primary-100">
             </div>
-        </section>
+        
+            <div class="l_col-s12 l_col-m6 primary-80">
+            </div>
+        
+            <div class="l_col-s12 l_col-m3 primary-60">
+            </div>
+        </div>
     </main>
     <footer>
 
@@ -61,7 +44,6 @@
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
