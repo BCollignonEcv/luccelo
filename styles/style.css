@@ -85,11 +85,6 @@ section{
     position: relative;
 }
 
-/* main .l_container > div{
-    min-height: calc(-100vh - 6rem);
-} */
-
-
 /*****************************************/
 /************** CUSTOM ID ****************/
 /*****************************************/
@@ -97,29 +92,43 @@ section{
 /************* SECTION HOME **************/
 
 #sect-home .l_container > div:nth-child(1){
-    background-color: var(--color-primary-100);
-}
-
-#sect-home .l_container > div:nth-child(2){
     background: url('../img/luccelo-restaurant.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#sect-home .l_container > div:nth-child(2) .c_img-filter{
+#sect-home .l_container > div:nth-child(1) .c_img-filter{
     background-color: var(--color-primary-80);
 }
 
-#sect-home .l_container > div:nth-child(3){
-    background: url('../img/luccelo-pizza.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#sect-home .l_container > div:nth-child(3) .c_img-filter{
-    background-color: var(--color-primary-60);
+@media only screen and (min-width: 601px){
+    #sect-home .l_container > div:nth-child(1){
+        background: none;
+        background-color: var(--color-primary-100);
+    }
+    
+    #sect-home .l_container > div:nth-child(2){
+        background: url('../img/luccelo-restaurant.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #sect-home .l_container > div:nth-child(2) .c_img-filter{
+        background-color: var(--color-primary-80);
+    }
+    
+    #sect-home .l_container > div:nth-child(3){
+        background: url('../img/luccelo-pizza.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #sect-home .l_container > div:nth-child(3) .c_img-filter{
+        background-color: var(--color-primary-60);
+    }
 }
 
 /************ SECTION CARTE **************/

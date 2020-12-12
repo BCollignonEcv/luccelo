@@ -137,8 +137,7 @@
 /*****************************************/
 
 .c_catalogue{
-    display: flex;
-    flex-wrap: wrap;
+
 }
 
 .c_catalogue-title{
@@ -150,14 +149,32 @@
     padding: var(--margin-large);
 }
 
+.c_catalogue-content{
+    padding: 0 var(--margin-small);
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .c_catalogue-item{
     flex: 1 1 400px;
     padding: 1rem;
 }
 
 .c_catalogue-item-content{
+    position: relative;
+}
+
+.c_catalogue-item-content img{
+    width: 100%;
+    z-index: 1;
+}
+
+.c_catalogue-item-content figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
     padding: var(--margin-small);
-    background-color: grey;
+    z-index: 2;
 }
 
 .c_catalogue-item-content h3{
@@ -174,7 +191,7 @@
 /*****************************************/
 
 .c_aside-information{
-    /* background-color: var(--color-neutral-10); */
+    background-color: var(--color-neutral-10);
 }
 
 .c_aside-information-title{
@@ -184,6 +201,10 @@
     font-weight: normal;
     font-size: 2rem;
     padding: var(--margin-large);
+}
+
+.c_aside-information-content{
+    padding: 0 var(--margin-large);
 }
 
 .c_aside-information p{
