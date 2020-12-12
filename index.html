@@ -28,9 +28,9 @@
         </nav>
         <ul class="c_nav-aside">
             <li class="c_nav-icon"><i class="material-icons">close</i></li>
-            <li>L'Uccello</li>
-            <li>Notre carte</li>
-            <li>Nous contacter</li>
+            <li data-scroll="sect-home">L'Uccello</li>
+            <li data-scroll="catalogue">Notre carte</li>
+            <li data-scroll="contact">Nous contacter</li>
         </ul>
     </header>
     <main>
@@ -59,8 +59,8 @@
         <section id="sect-carte">
             <div class="l_container">
                 <div class="l_col-s12 l_col-m9">
-                    <div class="c_catalogue">
-                        <h2 class="c_catalogue-title">Découvrez notre carte</h2>
+                    <div class="c_catalogue" id="catalogue">
+                        <h2 class="c_catalogue-title" data-scroll="catalogue">Découvrez notre carte</h2>
                         <div class="c_catalogue-item">
                             <div class="c_catalogue-item-content">
                                 <h3>Margherita</h3>
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="l_col-s12 l_col-m3 c_aside-information">
+                <div class="l_col-s12 l_col-m3 c_aside-information" id="contact">
                     <h2 class="c_aside-information-title">Pizzeria d'exception</h2>
                     <p>Votre restaurant l'Uccello reste ouvert chaque midi du <span>lundi</span> au <span>vendredi</span> durant cette période de <span>confinement</span></p>
                     <p>Commandez du lundi au vendredi à partir de 10h00, puis venez les retirer au restaurant à l'heure du déjeuner.</p>

@@ -15,11 +15,12 @@
     font-family: var(--font-secondary);
     color: var(--color-secondary-100);
     font-size: 2rem;
-    padding: var(--margin-small);
+    padding: var(--margin-small) var(--margin-large);
 }
 
 .c_nav li.c_nav-button{
     cursor: pointer;
+    padding-left: var(--margin-large);
 }
 
 .c_nav li.c_nav-icon{
@@ -86,12 +87,6 @@
 
 .c_nav-aside .c_nav-icon{
     padding: var(--margin-medium);
-}
-
-@media only screen and (min-width: 601px){
-    .c_nav li.c_nav-title{
-        padding-left: 3.6rem;
-    }
 }
 
 
@@ -197,4 +192,13 @@
 
 .c_aside-information span{
     font-weight: bold;
+}
+
+
+/*****************************************/
+/************** CLICKABLE ****************/
+/*****************************************/
+
+*[data-scroll]{
+    cursor: pointer;
 }
