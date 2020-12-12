@@ -111,8 +111,21 @@ section{
     background-color: var(--color-primary-60);
 }
 
-#sect-carte > div{
-    padding-top: 6rem;
-    box-sizing: border-box;
+#sect-carte{
+    margin-top: -7.4rem;
+    padding-top: 0;
+    z-index: 2;
+    height: calc(100vh - 6rem);
 }
 
+#sect-carte.scrolled{
+    margin-top: 0;
+}
+
+#sect-carte.scrolled .c_catalogue-title{
+    background: none;
+}
+
+#sect-carte.scrolled .c_aside-information-title{
+    background: none;
+}

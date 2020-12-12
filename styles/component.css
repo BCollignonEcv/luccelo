@@ -144,15 +144,15 @@
 .c_catalogue{
     display: flex;
     flex-wrap: wrap;
-    padding: var(--margin-large);
 }
 
 .c_catalogue-title{
     width: 100%;
+    background-color: var(--color-dark-20);
     color: var(--color-neutral-100);
     font-weight: normal;
-    padding-left: 1rem;
-    ;
+    font-size: 2rem;
+    padding: var(--margin-large);
 }
 
 .c_catalogue-item{
@@ -179,12 +179,16 @@
 /*****************************************/
 
 .c_aside-information{
-    background-color: var(--color-neutral-10);
-    padding: var(--margin-large);
+    /* background-color: var(--color-neutral-10); */
 }
 
-.c_aside-information h2{
+.c_aside-information-title{
+    width: 100%;
+    background-color: var(--color-dark-40);
     color: var(--color-neutral-100);
+    font-weight: normal;
+    font-size: 2rem;
+    padding: var(--margin-large);
 }
 
 .c_aside-information p{

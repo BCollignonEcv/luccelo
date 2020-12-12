@@ -12,6 +12,12 @@
     --color-neutral-40: rgba(255, 255, 255, .4);
     --color-neutral-20: rgba(255, 255, 255, .2);
     --color-neutral-10: rgba(255, 255, 255, .1);
+    --color-dark-100: rgba(0, 0, 0, 1);
+    --color-dark-80: rgba(0, 0, 0, .8);
+    --color-dark-60: rgba(0, 0, 0, .6);
+    --color-dark-40: rgba(0, 0, 0, .4);
+    --color-dark-20: rgba(0, 0, 0, .2);
+    --color-dark-10: rgba(0, 0, 0, .1);
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Tinos', serif;
     --margin-small: 1.6rem;

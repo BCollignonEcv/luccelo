@@ -7,3 +7,12 @@ $('header .c_nav-icon').click(function(){
         $('.c_nav-aside').removeClass('close');
     }
 });
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    if(scroll === 0){
+        $('#sect-carte').removeClass('scrolled');
+    }else{
+        $('#sect-carte').addClass('scrolled');
+    }
+});
