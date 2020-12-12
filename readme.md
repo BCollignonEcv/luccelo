@@ -8,7 +8,6 @@ Voici le lien du [site](https://bcollignonecv.github.io/luccelo/)
 
 __Texte__
 * Police de charactère principale: [roboto](https://fonts.google.com/specimen/Roboto)
-* Taille de police de base : 16px
 * Police de charactère secondaire : [Tinos](https://fonts.google.com/specimen/Tinos)
 
 __Couleurs__
