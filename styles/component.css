@@ -155,7 +155,6 @@
 /*****************************************/
 
 .c_catalogue{
-
 }
 
 .c_catalogue-title{
@@ -171,6 +170,7 @@
     padding: 0 var(--margin-small);
     display: flex;
     flex-wrap: wrap;
+    margin-top: -1rem;
 }
 
 .c_catalogue-item{
