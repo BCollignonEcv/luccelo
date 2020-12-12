@@ -4,25 +4,26 @@
 
 .c_nav{
     width: 100%;
+    background-color: var(--color-primary-60);
 }
 
 .c_nav li{
-    padding: var(--margin-small);
+    padding: var(--margin-medium);
 }
 
-.c_nav-title{
+.c_nav li.c_nav-title{
     font-family: var(--font-secondary);
     color: var(--color-secondary-100);
     font-size: 2rem;
-    padding: 1.6rem 2rem;
+    padding: var(--margin-small);
 }
 
-.c_nav-button{
+.c_nav li.c_nav-button{
     cursor: pointer;
 }
 
-.c_nav-icon{
-    padding: 1.6rem 2rem;
+.c_nav li.c_nav-icon{
+    padding: var(--margin-small);
     cursor: pointer;
 }
 
@@ -33,7 +34,6 @@
 }
 
 .c_nav-aside{
-    display: none;
     position: fixed;
     top: 0;
     left: 100%;
@@ -43,15 +43,20 @@
     transition: 1s ease-in-out;
 }
 
-.c_nav-aside li{
-    width: 100%;
-    padding: var(--margin-small);
-}
-
-.c_nav-aside.active{
+.c_nav-aside.open{
     left: 20%;
     display: block;
-    animation: showAside .7s ease-out;
+    -webkit-animation: showAside .7s ease-in-out;
+    -moz-animation: showAside .7s ease-in-out;
+    animation: showAside .7s ease-in-out;
+}
+
+.c_nav-aside.close{
+    left: 100%;
+    display: block;
+    -webkit-animation: hideAside .3s ease-in-out;
+    -moz-animation: hideAside .3s ease-in-out;
+    animation: hideAside .3s ease-in-out;
 }
 
 @keyframes showAside {
@@ -64,27 +69,107 @@
     }
 }
 
+@keyframes hideAside {
+    0% {
+      left: 20%;
+    }
+
+    100%{
+      left: 100%;
+    }
+}
+
+.c_nav-aside li{
+    width: 100%;
+    padding: var(--margin-medium);
+}
+
+.c_nav-aside .c_nav-icon{
+    padding: var(--margin-medium);
+}
+
+@media only screen and (min-width: 601px){
+    .c_nav li.c_nav-title{
+        padding-left: 3.6rem;
+    }
+}
+
 
 /*****************************************/
 /*************** BLOCTITLE ***************/
 /*****************************************/
 
 .c_blocTitle{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0%, -50%);
+}
 
+.c_blocTitle-title{
+    padding-bottom: var(--small-medium);
 }
 
 .c_blocTitle-title p, .c_blocTitle-title h1{
     color: var(--color-secondary-100);
     font-family: var(--font-secondary);
-    font-size: 3rem;
+    font-size: 5rem;
+    font-weight: normal;
+    display: inline;
 }
 
 .c_blocTitle-desc{
     color: var(--color-neutral-100);
-    font-weight: lighter;
-    font-size: 2rem;
+    font-weight: 100;
+    font-size: 3.2rem;
 }
 
 .c_blocTitle-desc .c_blocTitle-desc-bold{
     font-weight: bold;
+}
+
+/*****************************************/
+/*************** IMGFILTER ***************/
+/*****************************************/
+
+.c_img-filter{
+    width: 100%;
+    height: 100%;
+}
+
+/*****************************************/
+/*************** CATALOGUE ***************/
+/*****************************************/
+
+.c_catalogue{
+    display: flex;
+    flex-wrap: wrap;
+    padding: var(--margin-large);
+}
+
+.c_catalogue-title{
+    width: 100%;
+    color: var(--color-neutral-100);
+    font-weight: normal;
+    padding-left: 1rem;
+    ;
+}
+
+.c_catalogue-item{
+    flex: 1 1 400px;
+    padding: 1rem;
+}
+
+.c_catalogue-item-content{
+    padding: var(--margin-small);
+    background-color: grey;
+}
+
+.c_catalogue-item-content h3{
+    font-family: var(--font-secondary);
+    color: var(--color-secondary-100);
+}
+
+.c_catalogue-item-content p{
+    color: var(--color-neutral-100);
 }
