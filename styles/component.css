@@ -14,12 +14,13 @@
 .c_nav li.c_nav-title{
     font-family: var(--font-secondary);
     color: var(--color-secondary-100);
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding: var(--margin-small) var(--margin-large);
 }
 
 .c_nav li.c_nav-button{
     cursor: pointer;
+    font-size: 2rem;
     padding-left: var(--margin-large);
 }
 

@@ -138,10 +138,10 @@ section{
 /************ SECTION CARTE **************/
 
 #sect-carte{
-    margin-top: -7.4rem;
+    margin-top: -7.2rem;
     padding-top: 0;
     z-index: 2;
-    height: calc(100vh - 6rem);
+    height: calc(100vh - 6.4rem);
 }
 
 #sect-carte.scrolled{
