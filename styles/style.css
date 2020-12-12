@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5, li, a, span, p{
 /*************** CUSTOM *******************/
 /*****************************************/
 
+body{
+    background-color: var(--color-primary-100);
+}
+
 header{
     position: fixed;
     top: 0;
@@ -108,7 +112,7 @@ section{
 }
 
 #sect-carte > div{
-    padding-top: 6.3rem;
+    padding-top: 6rem;
     box-sizing: border-box;
 }
 

@@ -7,6 +7,11 @@
     --color-secondary-80: rgba(244, 255, 119, .8);
     --color-secondary-60: rgba(244, 255, 119, .6);
     --color-neutral-100: rgba(255, 255, 255, 1);
+    --color-neutral-80: rgba(255, 255, 255, .8);
+    --color-neutral-60: rgba(255, 255, 255, .6);
+    --color-neutral-40: rgba(255, 255, 255, .4);
+    --color-neutral-20: rgba(255, 255, 255, .2);
+    --color-neutral-10: rgba(255, 255, 255, .1);
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Tinos', serif;
     --margin-small: 1.6rem;

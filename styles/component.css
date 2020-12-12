@@ -4,7 +4,7 @@
 
 .c_nav{
     width: 100%;
-    background-color: var(--color-primary-60);
+    background-color: var(--color-neutral-10);
 }
 
 .c_nav li{
@@ -172,4 +172,25 @@
 
 .c_catalogue-item-content p{
     color: var(--color-neutral-100);
+}
+
+/*****************************************/
+/*********** ASIDEINFORMATION ************/
+/*****************************************/
+
+.c_aside-information{
+    background-color: var(--color-neutral-10);
+    padding: var(--margin-large);
+}
+
+.c_aside-information h2{
+    color: var(--color-neutral-100);
+}
+
+.c_aside-information p{
+    color: var(--color-neutral-100);
+}
+
+.c_aside-information span{
+    font-weight: bold;
 }
