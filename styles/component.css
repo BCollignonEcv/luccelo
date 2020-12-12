@@ -136,6 +136,10 @@
     width: 50%;
 }
 
+.c_dualText-text a{
+    display: block;
+}
+
 /*****************************************/
 /*************** IMGFILTER ***************/
 /*****************************************/
@@ -224,6 +228,10 @@
 }
 
 .c_aside-information p{
+    color: var(--color-neutral-100);
+}
+
+.c_aside-information a{
     color: var(--color-neutral-100);
 }
 

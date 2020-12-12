@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, li, a, span, p{
     font-family: var(--font-primary);
 }
 
+a{
+    text-decoration: underline;
+}
+
 /*****************************************/
 /*************** COLOR *******************/
 /*****************************************/
@@ -155,5 +159,11 @@ section{
 }
 
 #horaires{
-    margin-top: 30vh;
+    margin-top: 5rem;
+}
+
+@media only screen and (min-width: 601px){
+    #horaires{
+        margin-top: 40rem;
+    }
 }
