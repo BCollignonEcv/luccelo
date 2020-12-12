@@ -15,3 +15,6 @@ __Couleurs__
 * Couleur secondaire : jaune #f4ff77
 
 
+## Prochaine étape :
+
+Si le site te convient comme tel, je vais t'accompagner pour acheter ton nom de domaine : luccelo.fr (Celui ci est disponible) et ensuite prendre un hébergement chez OVH.
