@@ -32,10 +32,59 @@
     color: var(--color-primary-100);
 }
 
-.c_nav-mobile{
-    /* display: none; */
+.c_nav-aside{
+    display: none;
     position: fixed;
     top: 0;
     left: 100%;
-    width: 70%;
+    width: 80%;
+    height: 100vh;
+    background-color: var(--color-neutral-100);
+    transition: 1s ease-in-out;
+}
+
+.c_nav-aside li{
+    width: 100%;
+    padding: var(--margin-small);
+}
+
+.c_nav-aside.active{
+    left: 20%;
+    display: block;
+    animation: showAside .7s ease-out;
+}
+
+@keyframes showAside {
+    0% {
+      left: 100%;
+    }
+
+    100%{
+      left: 20%;
+    }
+}
+
+
+/*****************************************/
+/*************** BLOCTITLE ***************/
+/*****************************************/
+
+.c_blocTitle{
+
+}
+
+.c_blocTitle-title p, .c_blocTitle-title h1{
+    color: var(--color-secondary-100);
+    font-family: var(--font-secondary);
+    font-size: 3rem;
+}
+
+.c_blocTitle-desc{
+    color: var(--color-neutral-100);
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.c_blocTitle-desc .c_blocTitle-desc-bold{
+    font-weight: bold;
 }

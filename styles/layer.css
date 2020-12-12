@@ -37,6 +37,10 @@
     flex: 1 1 0;
 }
 
+.l_container > .l_col-fsh{
+    height: 100vh;
+}
+
 @media only screen and (min-width: 601px){
 
     .l_container >.l_s-hide{

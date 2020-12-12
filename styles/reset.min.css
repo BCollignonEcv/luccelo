@@ -18,6 +18,10 @@ a, abbr{
     text-decoration: none;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 *{
     box-sizing: border-box;
 }

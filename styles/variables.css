@@ -6,6 +6,7 @@
     --color-secondary-100: rgba(244, 255, 119, 1);
     --color-secondary-80: rgba(244, 255, 119, .8);
     --color-secondary-60: rgba(244, 255, 119, .6);
+    --color-neutral-100: rgba(255, 255, 255, 1);
     --font-primary: 'Roboto', sans-serif;
     --font-secondary: 'Tinos', serif;
     --margin-small: 2rem;
