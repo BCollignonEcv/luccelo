@@ -30,6 +30,7 @@
 
 .c_nav li.c_nav-icon{
     padding: var(--margin-small);
+    margin-top: 0.5rem;
     cursor: pointer;
 }
 
