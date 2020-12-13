@@ -278,7 +278,7 @@
     .c_catalogue-content{
         padding: 0 var(--margin-small) 3rem var(--margin-small);
         overflow-y: scroll;
-        height: calc(100vh - 12rem);
+        height: calc(100% - 12rem);
     }
 }
 
