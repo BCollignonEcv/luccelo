@@ -275,7 +275,7 @@
     bottom: 1.6rem;
 }
 
-@media only screen and (min-width: 601px){ 
+@media only screen and (orientation: portrait) and (min-width: 601px){ 
 
     .c_catalogue-content{
         padding: 0 var(--margin-small) 3rem var(--margin-small);
@@ -283,6 +283,16 @@
         height: calc(100vh - 12rem);
     }
 }
+
+@media only screen and (orientation: landscape) and (max-width: 1024px){
+    .c_catalogue-item{
+        flex: 1 1 300px;
+        padding: .5rem;
+        flex-grow: 1;
+    }
+}
+
+
 
 /*****************************************/
 /*********** ASIDEINFORMATION ************/
@@ -327,12 +337,13 @@
     font-weight: bold;
 }
 
-@media only screen and (min-width: 601px){
+@media only screen and (orientation: portrait) and (min-width: 601px){
     .c_aside-information-content-bottom{
         position: absolute;
         bottom: 0;
     }
 }
+
 
 
 /*****************************************/
