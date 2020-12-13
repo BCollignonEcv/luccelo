@@ -139,10 +139,6 @@
     display: inline;
 }
 
-.c_blocTitle-title p, .c_blocTitle-title h1{
-    font-weight: 400;
-}
-
 .c_blocTitle-desc{
     color: var(--color-neutral-100);
     font-weight: 300;
