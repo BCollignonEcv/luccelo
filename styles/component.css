@@ -157,10 +157,12 @@
 @media only screen and (min-width: 601px){
     .c_blocTitle-title p, .c_blocTitle-title h1{
         font-size: 5rem;
+        line-height: 5rem;
     }
 
     .c_blocTitle-desc{
         font-size: 3.2rem;
+        line-height: 3.6rem;
     }
 }
 
