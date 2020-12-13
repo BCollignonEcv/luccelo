@@ -26,7 +26,7 @@ $('*[data-scroll]').click(function(){
         $('.c_nav-aside').addClass('close');
     }
     $('html, body').animate({
-        scrollTop: $('#'+ target).offset().top + "1rem"
+        scrollTop: ($('#'+ target).offset().top + 10)
     }, 1000);
 });
 
