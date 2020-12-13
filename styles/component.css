@@ -83,6 +83,8 @@
 
 .c_nav-aside li{
     width: 100%;
+    text-align: center;
+    color: var(--color-neutral-100);
     padding: var(--margin-medium);
 }
 
