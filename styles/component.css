@@ -131,14 +131,10 @@
     transform: translate(0%, -50%);
 }
 
-.c_blocTitle-title{
-    padding-bottom: var(--small-medium);
-}
-
 .c_blocTitle-title p, .c_blocTitle-title h1{
     color: var(--color-secondary-100);
     font-family: var(--font-secondary);
-    font-size: 4.2rem;
+    font-size: 3.4rem;
     font-weight: 300;
     display: inline;
 }
@@ -150,7 +146,8 @@
 .c_blocTitle-desc{
     color: var(--color-neutral-100);
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.4rem;
+    margin-top: 12px;
 }
 
 .c_blocTitle-desc .c_blocTitle-desc-bold{
@@ -289,7 +286,6 @@
 
 .c_aside-information{
     background-color: var(--color-neutral-10);
-    min-height: calc(100vh - 6rem);
 }
 
 .c_aside-information-title{
@@ -307,6 +303,10 @@
 
 .c_aside-information-content{
     padding: 0 var(--margin-large);
+}
+
+.c_aside-information-content-bottom{
+    margin-bottom: 2rem;
 }
 
 .c_aside-information p{
@@ -327,15 +327,24 @@
     .c_aside-information-content-bottom{
         position: absolute;
         bottom: 0;
-        margin-bottom: 2rem;
     }
 }
 
 
 /*****************************************/
-/************** CLICKABLE ****************/
+/**************** DIVERS *****************/
 /*****************************************/
 
 *[data-scroll]{
     cursor: pointer;
+}
+
+.c_s-show{
+    display: block;
+}
+
+@media only screen and (min-width: 601px){
+    .c_s-show{
+        display: none;
+    }
 }
