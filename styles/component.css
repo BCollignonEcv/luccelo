@@ -7,7 +7,7 @@
 }
 
 .c_nav.scrolled{
-    background-color: var(--color-dark-40);
+    background-color: var(--color-dark-60);
 }
 
 .c_nav li{
@@ -18,6 +18,7 @@
     font-family: var(--font-secondary);
     color: var(--color-secondary-100);
     font-size: 2.4rem;
+    font-weight: 300;
     padding: var(--margin-small) var(--margin-large);
 }
 
@@ -46,6 +47,34 @@
     height: 100vh;
     backdrop-filter: blur(10px);
     transition: 1s ease-in-out;
+}
+
+.c_nav-aside .c_nav-aside-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.c_nav-aside li{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: var(--color-secondary-100);
+    padding: var(--margin-small);
+}
+
+.c_nav-aside .c_nav-icon{
+    padding: var(--margin-medium);
+}
+
+.c_nav-aside .c_nav-icon-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 2rem;
 }
 
 .c_nav-aside.open{
@@ -84,24 +113,8 @@
     }
 }
 
-.c_nav-aside li{
-    width: 100%;
-    text-align: center;
-    font-family: var(--font-secondary);
-    font-size: 2rem;
-    color: var(--color-neutral-100);
-    padding: var(--margin-medium);
-}
-
-.c_nav-aside .c_nav-icon{
-    padding: var(--margin-medium);
-}
-
 @media only screen and (min-width: 601px){
-    .c_nav{
-        width: 100%;
-        background-color: var(--color-neutral-10);
-    }
+
 }
 
 
@@ -114,6 +127,7 @@
     position: absolute;
     top: 50%;
     left: 10%;
+    right: 10%;
     transform: translate(0%, -50%);
 }
 
@@ -124,19 +138,33 @@
 .c_blocTitle-title p, .c_blocTitle-title h1{
     color: var(--color-secondary-100);
     font-family: var(--font-secondary);
-    font-size: 5rem;
-    font-weight: normal;
+    font-size: 4.2rem;
+    font-weight: 300;
     display: inline;
+}
+
+.c_blocTitle-title p, .c_blocTitle-title h1{
+    font-weight: 400;
 }
 
 .c_blocTitle-desc{
     color: var(--color-neutral-100);
-    font-weight: 100;
-    font-size: 3.2rem;
+    font-weight: 300;
+    font-size: 3rem;
 }
 
 .c_blocTitle-desc .c_blocTitle-desc-bold{
-    font-weight: bold;
+    font-weight: normal;
+}
+
+@media only screen and (min-width: 601px){
+    .c_blocTitle-title p, .c_blocTitle-title h1{
+        font-size: 5rem;
+    }
+
+    .c_blocTitle-desc{
+        font-size: 3.2rem;
+    }
 }
 
 /*****************************************/
@@ -152,8 +180,18 @@
     width: 50%;
 }
 
+.c_dualText-sfull{
+    display: block;
+}
+
 .c_dualText-text a{
     display: block;
+}
+
+@media only screen and (min-width: 601px){
+    .c_dualText-sfull{
+        display: flex;
+    }
 }
 
 /*****************************************/
@@ -181,12 +219,18 @@
     padding: var(--margin-large);
 }
 
+.c_catalogue-title:hover{
+    background-color: var(--color-dark-60);
+}
+
 .c_catalogue-content{
-    padding: 0 var(--margin-small);
+    padding: 0 var(--margin-small) var(--margin-small) var(--margin-small);
     display: flex;
     flex-wrap: wrap;
-    margin-top: -1rem;
+    margin-top: -.5rem;
     overflow-y: scroll;
+    height: max-content;
+
 }
 
 .c_catalogue-item{
@@ -214,13 +258,24 @@
     z-index: 2;
 }
 
-.c_catalogue-item-content h3{
+.c_catalogue-item-content .c_catalogue-item-title{
     font-family: var(--font-secondary);
+    font-weight: 300;
     color: var(--color-secondary-100);
 }
 
-.c_catalogue-item-content p{
+.c_catalogue-item-content .c_catalogue-item-desc{
     color: var(--color-neutral-100);
+    font-weight: 200;
+    margin-top: 0.3rem;
+}
+
+.c_catalogue-item-content .c_catalogue-item-price{
+    color: var(--color-neutral-100);
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    position: absolute;
+    bottom: 1.6rem;
 }
 
 /*****************************************/
@@ -240,16 +295,22 @@
     padding: var(--margin-large);
 }
 
+.c_aside-information-title:hover{
+    background-color: var(--color-dark-60);
+}
+
 .c_aside-information-content{
     padding: 0 var(--margin-large);
 }
 
 .c_aside-information p{
     color: var(--color-neutral-100);
+    line-height: 1.2;
 }
 
 .c_aside-information a{
     color: var(--color-neutral-100);
+    line-height: 1.2;
 }
 
 .c_aside-information span{

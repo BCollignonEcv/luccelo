@@ -25,6 +25,8 @@ $('*[data-scroll]').click(function(){
         $('.c_nav-aside').removeClass('open');
         $('.c_nav-aside').addClass('close');
     }
-    $('#'+target)[0].scrollIntoView({behavior: "smooth", block: "start"});
+    $('html, body').animate({
+        scrollTop: $('#'+ target).offset().top + "1rem"
+    }, 1000);
 });
 

@@ -151,6 +151,12 @@ section{
 /* !warning! Overloading component */
 #sect-carte.scrolled .c_catalogue-title{
     background: none;
+    cursor: unset;
+}
+
+/* !warning! Overloading component */
+#sect-carte.scrolled .c_catalogue-title:hover{
+    background: none;
 }
 
 /* !warning! Overloading component */
@@ -159,10 +165,14 @@ section{
 }
 
 #horaires{
-    margin-top: 5rem;
+    margin-top: 0;
 }
 
 @media only screen and (min-width: 601px){
+    #sect-carte{
+        overflow: hidden;
+    }
+
     #horaires{
         margin-top: 40rem;
     }

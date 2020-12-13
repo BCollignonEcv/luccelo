@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pizzeria l'Uccelo situé 41 rue Bougainville à Nantes propose des pizzas à emporter. Faites votre choix parmis la carte et appelez Hugues Trichard pour commander">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -21,16 +21,23 @@
     <header>
         <nav class="c_nav">
             <ul class="l_container">
-                <li class="c_nav-title l_col-fill l_col-m9 ">L'Uccello</li>
+                <li class="c_nav-title l_col-fill l_col-m9 " data-scroll="sect-home">L'Uccello</li>
                 <li class="c_nav-button l_s-hide l_col-m3 secondary-100" data-scroll="contact">Nous contacter</li>
                 <li class="c_nav-icon l_s-show"><i class="material-icons">circle</i></li>
             </ul>
         </nav>
         <ul class="c_nav-aside">
             <li class="c_nav-icon"><i class="material-icons">close</i></li>
-            <li data-scroll="sect-home">L'Uccello</li>
-            <li data-scroll="catalogue">Notre carte</li>
-            <li data-scroll="contact">Nous contacter</li>
+            <div class="c_nav-aside-content">
+                <li data-scroll="sect-home">L'Uccello</li>
+                <li data-scroll="catalogue">Découvrer notre carte</li>
+                <li data-scroll="contact">Nous contacter</li>
+            </div>
+            <li class="c_nav-icon-bottom" data-scroll="contact">                
+                <a href="https://www.facebook.com/Luccello-1047657815423727" target="_blank">
+                    <img src="img/Facebook_Icon.svg" alt="facebook icon" height="24px" width="24px" />
+                </a>
+            </li>
         </ul>
     </header>
     <main>
@@ -38,7 +45,7 @@
             <div class="l_container">
                 <div class="l_col-s12 l_col-fsh l_col-m3">
                     <div class="c_blocTitle">
-                        <div class="c_img-filter"></div>
+                        <div class="c_img-filter l_s-show"></div>
                         <div class="c_blocTitle-title">
                             <p>Bienvenue chez </p>
                             <h1>L'Uccello</h1>
@@ -68,8 +75,9 @@
                                     <figure>
                                         <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
                                         <figcaption>
-                                            <h3>Margherita</h3>
-                                            <p>Tomate, fromage, olive, origan</p>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -79,76 +87,141 @@
                                     <figure>
                                         <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
                                         <figcaption>
-                                            <h3>Margherita</h3>
-                                            <p>Tomate, fromage, olive, origan</p>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
                                         </figcaption>
                                     </figure>
                                 </div>
-                            </div>       
+                            </div>
                             <div class="c_catalogue-item">
                                 <div class="c_catalogue-item-content">
                                     <figure>
                                         <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
                                         <figcaption>
-                                            <h3>Margherita</h3>
-                                            <p>Tomate, fromage, olive, origan</p>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
                                         </figcaption>
                                     </figure>
                                 </div>
-                            </div>   
+                            </div>
                             <div class="c_catalogue-item">
                                 <div class="c_catalogue-item-content">
                                     <figure>
                                         <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
                                         <figcaption>
-                                            <h3>Margherita</h3>
-                                            <p>Tomate, fromage, olive, origan</p>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
                                         </figcaption>
                                     </figure>
                                 </div>
-                            </div>   
+                            </div>
                             <div class="c_catalogue-item">
                                 <div class="c_catalogue-item-content">
                                     <figure>
                                         <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
                                         <figcaption>
-                                            <h3>Margherita</h3>
-                                            <p>Tomate, fromage, olive, origan</p>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
                                         </figcaption>
                                     </figure>
                                 </div>
-                            </div>   
+                            </div>
                             <div class="c_catalogue-item">
                                 <div class="c_catalogue-item-content">
                                     <figure>
                                         <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
                                         <figcaption>
-                                            <h3>Margherita</h3>
-                                            <p>Tomate, fromage, olive, origan</p>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
                                         </figcaption>
                                     </figure>
                                 </div>
-                            </div>                          
+                            </div>
+                            <div class="c_catalogue-item">
+                                <div class="c_catalogue-item-content">
+                                    <figure>
+                                        <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
+                                        <figcaption>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="c_catalogue-item">
+                                <div class="c_catalogue-item-content">
+                                    <figure>
+                                        <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
+                                        <figcaption>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="c_catalogue-item">
+                                <div class="c_catalogue-item-content">
+                                    <figure>
+                                        <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
+                                        <figcaption>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="c_catalogue-item">
+                                <div class="c_catalogue-item-content">
+                                    <figure>
+                                        <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
+                                        <figcaption>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="c_catalogue-item">
+                                <div class="c_catalogue-item-content">
+                                    <figure>
+                                        <img src="img/pizza-1.jpg" alt="Pizza Margherita" srcset="">
+                                        <figcaption>
+                                            <h3 class="c_catalogue-item-title">Margherita</h3>
+                                            <p class="c_catalogue-item-desc">Tomate, fromage, olive, origan</p>
+                                            <p class="c_catalogue-item-price">13,00€</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="l_col-s12 l_col-m3 c_aside-information" id="contact">
-                    <h2 class="c_aside-information-title">Pizzeria d'exception</h2>
+                    <h2 class="c_aside-information-title" data-scroll="contact">Pizzeria d'exception</h2>
                     <div class="c_aside-information-content">
                         <p>Votre restaurant l'Uccello reste ouvert chaque midi du <span>lundi</span> au <span>vendredi</span> durant cette période de <span>confinement</span></p><br>
                         <p>Commandez du lundi au vendredi à partir de 10h00, puis venez les retirer au restaurant à l'heure du déjeuner.</p><br>
                         <p>Notre adresse et contact :</p><br>
-                        <div class="c_dualText">
+                        <div class="c_dualText-sfull">
                             <div class="c_dualText-text">
                                 <p>Restaurant l'Uccello</p>
                                 <p>41 rue Bougainville</p>
                                 <p>44100, Nantes</p>
-                            </div>
+                            </div><br>
                             <div class="c_dualText-text">
                                 <a href="mailto:contact@luccello.fr">contact@luccello.fr</a>
                                 <a href="tel:+33699373735">06 99 37 37 35</a>
                                 <a href="tel:+33228063330">02 28 06 33 30</a>
-                            </div>
+                            </div><br>
                         </div>
                         <div id="horaires">
                             <p>Nos horaires d'ouverture :</p><br>
@@ -169,10 +242,7 @@
             </div>
         </section>            
     </main>
-    <script
-        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>
