@@ -140,7 +140,7 @@ section{
 #sect-carte{
     margin-top: -7.2rem;
     padding-top: 0;
-    z-index: 2;
+    z-index: 2; 
     height: calc(100% - 6.4rem);
 }
 

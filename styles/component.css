@@ -273,7 +273,7 @@
     bottom: 1.6rem;
 }
 
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 601px){ 
 
     .c_catalogue-content{
         padding: 0 var(--margin-small) 3rem var(--margin-small);
