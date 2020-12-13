@@ -163,16 +163,8 @@ section{
     background: none;
 }
 
-#horaires{
-    margin-top: 0;
-}
-
 @media only screen and (min-width: 601px){
     #sect-carte{
         overflow: hidden;
-    }
-
-    #horaires{
-        margin-top: 40rem;
     }
 }

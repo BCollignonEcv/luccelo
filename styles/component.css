@@ -289,6 +289,7 @@
 
 .c_aside-information{
     background-color: var(--color-neutral-10);
+    min-height: calc(100vh - 6rem);
 }
 
 .c_aside-information-title{
@@ -320,6 +321,13 @@
 
 .c_aside-information span{
     font-weight: bold;
+}
+
+@media only screen and (min-width: 601px){
+    .c_aside-information-content-bottom{
+        position: absolute;
+        bottom: 2rem;
+    }
 }
 
 
