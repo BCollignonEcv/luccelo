@@ -25,8 +25,14 @@ $('*[data-scroll]').click(function(){
         $('.c_nav-aside').removeClass('open');
         $('.c_nav-aside').addClass('close');
     }
-    $('html, body').animate({
-        scrollTop: ($('#'+ target).offset().top + 10)
-    }, 1000);
+    if(target === 'sect-home'){
+        $('html, body').animate({
+            scrollTop: ($('#'+ target).offset().top)
+        }, 1000);
+    }else{
+        $('html, body').animate({
+            scrollTop: ($('#'+ target).offset().top + 10)
+        }, 1000);
+    }
 });
 
