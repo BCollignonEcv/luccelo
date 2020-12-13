@@ -8,11 +8,11 @@ Voici le lien du [site](https://bcollignonecv.github.io/luccelo/)
 
 __Texte__
 * Police de charactère principale: [roboto](https://fonts.google.com/specimen/Roboto)
-* Police de charactère secondaire : [Tinos](https://fonts.google.com/specimen/Tinos)
+* Police de charactère secondaire : [roboto slab](https://fonts.google.com/specimen/Roboto+Slab)
 
 __Couleurs__
 * Couleur principale : vert #1c2721
-* Couleur secondaire : jaune #f4ff77
+* Couleur secondaire : jaune #d7e632
 
 
 ## Prochaine étape :
