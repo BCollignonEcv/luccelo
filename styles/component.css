@@ -230,6 +230,7 @@
 .c_catalogue-item{
     flex: 1 1 400px;
     padding: .5rem;
+    flex-grow: 1;
 }
 
 .c_catalogue-item-content{
