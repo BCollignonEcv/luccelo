@@ -2,8 +2,10 @@ $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
     if(scroll === 0){
         $('#sect-carte').removeClass('scrolled');
+        $('.c_nav').removeClass('scrolled');
     }else{
         $('#sect-carte').addClass('scrolled');
+        $('.c_nav').addClass('scrolled');
     }
 });
 
