@@ -106,7 +106,7 @@ section{
     background-color: var(--color-primary-80);
 }
 
-@media only screen and (orientation: portrait) and (min-width: 601px){
+@media only screen and (min-width: 601px){
     #sect-home .l_container > div:nth-child(1){
         background: none;
         background-color: var(--color-primary-100);
@@ -163,7 +163,7 @@ section{
     background: none;
 }
 
-@media only screen and (orientation: portrait) and (min-width: 601px){
+@media only screen and (min-width: 601px){
     #sect-carte{
         overflow: hidden;
     }

@@ -37,37 +37,37 @@
     height: 100vh;
 }
 
-@media only screen and (orientation: portrait) and (min-width: 601px){
+@media only screen and (min-width: 601px){
 
     .l_container{
         height: 100%;
     }
 
-    .l_container >.l_s-hide{
+    .l_container > .l_s-hide{
         display: initial;
     }
 
-    .l_container >.l_s-show{
+    .l_container > .l_s-show{
         display: none;
     }
 
-    .l_container >.l_m-hide{
+    .l_container > .l_m-hide{
         display: none;
     }
 
-    .l_container >.l_col-m3{
+    .l_container > .l_col-m3{
         width: 25%;
     }
 
-    .l_container >.l_col-m6{
+    .l_container > .l_col-m6{
         width: 50%;
     }
 
-    .l_container >.l_col-m9{
+    .l_container > .l_col-m9{
         width: 75%;
     }
 
-    .l_container >.l_col-m12{
+    .l_container > .l_col-m12{
         width: 100%;
     }
 }
