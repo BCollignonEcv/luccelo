@@ -135,6 +135,19 @@ section{
     }
 }
 
+@media (orientation: landscape) and (max-width : 993px){
+    #sect-home .l_container > div:nth-child(1){
+        background: url('../img/luccelo-restaurant.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #sect-home .l_container > div:nth-child(1) .c_img-filter{
+        background-color: var(--color-primary-80);
+    }
+}
+
 /************ SECTION CARTE **************/
 
 #sect-carte{
@@ -166,5 +179,18 @@ section{
 @media only screen and (min-width: 601px){
     #sect-carte{
         overflow: hidden;
+    }
+}
+
+@media (orientation: landscape) and (max-width : 993px){
+    #sect-carte{
+        margin-top: -7.2rem;
+        padding-top: 0;
+        z-index: 2; 
+        height: auto;
+    }
+
+    #sect-carte{
+        overflow: initial;
     }
 }

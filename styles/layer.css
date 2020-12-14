@@ -113,6 +113,37 @@
     }
 }
 
-@media (orientation: landscape) and (min-width : 768px){
+@media (orientation: landscape) and (max-width : 993px){
 
+    .l_container{
+        height: 100%;
+    }
+
+    .l_container > .l_s-hide{
+        display: none;
+    }
+
+    .l_container > .l_s-show{
+        display: block;
+    }
+
+    .l_container > .l_m-hide{
+        display: none;
+    }
+
+    .l_container > .l_col-m3{
+        width: initial;
+    }
+
+    .l_container > .l_col-m6{
+        width: initial;
+    }
+
+    .l_container > .l_col-m9{
+        width: initial;
+    }
+
+    .l_container > .l_col-m12{
+        width: initial;
+    }
 }

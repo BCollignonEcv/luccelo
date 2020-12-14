@@ -115,7 +115,8 @@
     }
 }
 
-@media only screen and (min-width: 601px){
+@media only screen and (orientation: landscape) and (max-width: 993px){
+
 
 }
 
@@ -284,7 +285,13 @@
     }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 1024px){
+@media only screen and (orientation: landscape) and (max-width: 993px){
+    
+    .c_catalogue-content{
+        padding: 0 var(--margin-small) 3rem var(--margin-small);
+        height: fit-content;
+    }
+
     .c_catalogue-item{
         flex: 1 1 300px;
         padding: .5rem;
@@ -341,6 +348,12 @@
     .c_aside-information-content-bottom{
         position: absolute;
         bottom: 0;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 993px){
+    .c_aside-information-content-bottom{
+        position: relative;
     }
 }
 
