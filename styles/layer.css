@@ -132,18 +132,18 @@
     }
 
     .l_container > .l_col-m3{
-        width: initial;
+        width: inherit;
     }
 
     .l_container > .l_col-m6{
-        width: initial;
+        width: inherit;
     }
 
     .l_container > .l_col-m9{
-        width: initial;
+        width: inherit;
     }
 
     .l_container > .l_col-m12{
-        width: initial;
+        width: inherit;
     }
 }
