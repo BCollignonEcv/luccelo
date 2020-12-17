@@ -28,6 +28,18 @@
     padding-left: var(--margin-large);
 }
 
+.c_nav li.c_nav-button a{
+    color: var(--color-primary-100);
+    text-decoration: none;
+}
+
+.c_nav li.c_nav-button a i{
+    padding-right: 1rem;
+    position: relative;
+    top: 3px;
+    font-size: 2rem;
+}
+
 .c_nav li.c_nav-icon{
     padding: var(--margin-small);
     margin-top: 0.5rem;
